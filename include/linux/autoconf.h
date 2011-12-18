@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.32.50
- * Fri Dec 16 22:47:01 2011
+ * Sun Dec 18 14:52:22 2011
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_DEBUG_SPINLOCK_SLEEP 1
@@ -17,6 +17,7 @@
 #define CONFIG_PROC_KCORE 1
 #define CONFIG_CRYPTO_WORKQUEUE 1
 #define CONFIG_TRACING 1
+#define CONFIG_ALTIVEC 1
 #define CONFIG_HAVE_FUNCTION_TRACER 1
 #define CONFIG_CRYPTO_ECB 1
 #define CONFIG_PPC_PERF_CTRS 1
