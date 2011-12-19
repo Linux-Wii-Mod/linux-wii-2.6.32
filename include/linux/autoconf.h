@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.32.50
- * Sun Dec 18 14:52:22 2011
+ * Mon Dec 19 21:17:54 2011
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_DEBUG_SPINLOCK_SLEEP 1
@@ -473,6 +473,7 @@
 #define CONFIG_SCHEDSTATS 1
 #define CONFIG_BINFMT_ELF 1
 #define CONFIG_BINARY_PRINTF 1
+#define CONFIG_TUN 1
 #define CONFIG_SND_SUPPORT_OLD_API 1
 #define CONFIG_DEFAULT_AS 1
 #define CONFIG_SND_PCM_OSS_PLUGINS 1
