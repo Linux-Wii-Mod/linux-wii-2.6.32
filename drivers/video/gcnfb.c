@@ -475,8 +475,8 @@ static struct vi_tv_mode vi_tv_modes[] = {
 	[VI_VM_PAL_576i50] = {
 		.name = "PAL 576i",
 		.flags = VI_VMF_PAL_COLOR,
-		.width = 640,
-		.height = 574,
+		.width = 720,
+		.height = 576,
 		.lines = 625,
 	},
 	[VI_VM_PAL_480i60] = {
@@ -2156,11 +2156,11 @@ static int __devinit vifb_do_probe(struct device *dev,
 
 	if (!nostalgic) {
 		/* by default, start with overscan compensation */
-		info->var.xres = 576;
-		if (ctl->mode->height == 574)
-			info->var.yres = 516;
+		info->var.xres = 720;
+		if (ctl->mode->height == 576)
+			info->var.yres = 576;
 		else
-			info->var.yres = 432;
+			info->var.yres = 576;
 	} else {
 		info->var.xres = ctl->mode->width;
 		info->var.yres = ctl->mode->height;
