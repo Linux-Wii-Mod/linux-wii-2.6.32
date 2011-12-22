@@ -475,8 +475,8 @@ static struct vi_tv_mode vi_tv_modes[] = {
 	[VI_VM_PAL_576i50] = {
 		.name = "PAL 576i",
 		.flags = VI_VMF_PAL_COLOR,
-		.width = 720,
-		.height = 576,
+		.width = 640,
+		.height = 574,
 		.lines = 625,
 	},
 	[VI_VM_PAL_480i60] = {
