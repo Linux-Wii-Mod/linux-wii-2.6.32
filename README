@@ -3,5 +3,6 @@ Linux kernel 2.6.32.50 for Linux Wii
 This kernel include:
  - mikeP5 patch
  - Farter framebuffer patch
+ - Tap/Tun device added
  - Some config tweaks
 
